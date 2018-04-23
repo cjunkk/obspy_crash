@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns:ingv="http://webservices.ingv.it/fdsnws/event/1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2">
+  <eventParameters publicID="smi:webservices.ingv.it/fdsnws/event/1/query">
+    <event publicID="smi:webservices.ingv.it/fdsnws/event/1/query?eventId=18972731">
+      <preferredOriginID>smi:webservices.ingv.it/fdsnws/event/1/query?originId=55995051</preferredOriginID>
+      <preferredMagnitudeID>smi:webservices.ingv.it/fdsnws/event/1/query?magnitudeId=57085801</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>Tirreno Meridionale (MARE)</text>
+        <type>region name</type>
+      </description>
+      <creationInfo>
+        <agencyID>INGV</agencyID>
+        <author>hew10_mole#MOD_EQASSEMBLE</author>
+        <creationTime>2018-04-23T09:28:22.000000Z</creationTime>
+      </creationInfo>
+      <origin publicID="smi:webservices.ingv.it/fdsnws/event/1/query?originId=55995051">
+        <time>
+          <value>2018-04-23T09:28:47.460000Z</value>
+          <uncertainty>0.17</uncertainty>
+        </time>
+        <latitude>
+          <value>38.8088</value>
+          <uncertainty>0.0144</uncertainty>
+        </latitude>
+        <longitude>
+          <value>13.7717</value>
+          <uncertainty>0.0138</uncertainty>
+        </longitude>
+        <depth>
+          <value>32600.0</value>
+          <uncertainty>1100.0</uncertainty>
+        </depth>
+        <depthType>from location</depthType>
+        <methodID>smi:webservices.ingv.it/fdsnws/event/1/query?methodId=1</methodID>
+        <earthModelID>smi:webservices.ingv.it/fdsnws/event/1/query?earthModelId=1</earthModelID>
+        <quality>
+          <associatedPhaseCount>64</associatedPhaseCount>
+          <usedPhaseCount>32</usedPhaseCount>
+          <associatedStationCount>46</associatedStationCount>
+          <usedStationCount>21</usedStationCount>
+          <standardError>0.42</standardError>
+          <azimuthalGap>140.0</azimuthalGap>
+          <minimumDistance>0.0</minimumDistance>
+          <maximumDistance>1.93174</maximumDistance>
+        </quality>
+        <type>hypocenter</type>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>INGV</agencyID>
+          <author>SURVEY-INGV</author>
+          <creationTime>2018-04-23T10:03:32.000000Z</creationTime>
+          <version>100</version>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>uncertainty ellipse</preferredDescription>
+          <horizontalUncertainty>1560.0</horizontalUncertainty>
+          <minHorizontalUncertainty>1011.0</minHorizontalUncertainty>
+          <maxHorizontalUncertainty>1555.0</maxHorizontalUncertainty>
+          <azimuthMaxHorizontalUncertainty>343.0</azimuthMaxHorizontalUncertainty>
+          <confidenceLevel>68.0</confidenceLevel>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="smi:webservices.ingv.it/fdsnws/event/1/query?magnitudeId=57085801">
+        <mag>
+          <value>3.6</value>
+          <uncertainty>0.4</uncertainty>
+        </mag>
+        <type>ML</type>
+        <originID>smi:webservices.ingv.it/fdsnws/event/1/query?originId=55995051</originID>
+        <methodID>smi:webservices.ingv.it/fdsnws/event/1/query?methodId=1</methodID>
+        <stationCount>8</stationCount>
+        <creationInfo>
+          <agencyID>INGV</agencyID>
+          <author>Sala Sismica INGV-Roma</author>
+          <creationTime>2018-04-23T10:03:31.000000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>
